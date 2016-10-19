@@ -1,0 +1,417 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <Units Count="31">
+      <Unit0>
+        <Filename Value="transgui.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="27"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4608"/>
+        <CursorPos X="41" Y="4625"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="rpc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="rpc"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="305"/>
+        <CursorPos X="14" Y="332"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="addtorrent.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddTorrentForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AddTorrent"/>
+        <UsageCount Value="27"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="connoptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ConnOptionsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ConnOptions"/>
+        <UsageCount Value="27"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="varlist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="varlist"/>
+        <EditorIndex Value="14"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="88"/>
+        <CursorPos X="1" Y="98"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="torrprops.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TorrPropsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="TorrProps"/>
+        <UsageCount Value="27"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="daemonoptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DaemonOptionsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="DaemonOptions"/>
+        <UsageCount Value="27"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="About"/>
+        <UsageCount Value="27"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="ipresolver.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="IpResolver"/>
+        <UsageCount Value="27"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="download.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DownloadForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="27"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="colsetup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ColSetupForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ColSetup"/>
+        <UsageCount Value="27"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="utils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="27"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="restranslator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ResTranslator"/>
+        <UsageCount Value="27"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="addlink.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddLinkForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AddLink"/>
+        <UsageCount Value="27"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="movetorrent.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MoveTorrentForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MoveTorrent"/>
+        <UsageCount Value="27"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="addtracker.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddTrackerForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AddTracker"/>
+        <UsageCount Value="27"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="options.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="OptionsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Options"/>
+        <UsageCount Value="27"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="baseform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="BaseForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="BaseForm"/>
+        <UsageCount Value="27"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="data.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="data"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="json\fpjson2.pp"/>
+        <UnitName Value="fpjson2"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1251"/>
+        <CursorPos X="1" Y="1261"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\lazarus\lcl\include\custombitmap.inc"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="45"/>
+        <CursorPos X="1" Y="56"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarus\lcl\include\rasterimage.inc"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="271"/>
+        <CursorPos X="1" Y="284"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\lazarus\lcl\include\graphic.inc"/>
+        <EditorIndex Value="13"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="6"/>
+        <CursorPos X="1" Y="22"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="C:\lazarus\lcl\include\bitmap.inc"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="148"/>
+        <CursorPos X="1" Y="159"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="C:\lazarus\lcl\include\sharedcustombitmap.inc"/>
+        <EditorIndex Value="10"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7"/>
+        <CursorPos X="1" Y="23"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\lazarus\lcl\include\sharedrasterimage.inc"/>
+        <EditorIndex Value="12"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="6"/>
+        <CursorPos X="1" Y="22"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\lazarus\lcl\graphtype.pp"/>
+        <UnitName Value="GraphType"/>
+        <EditorIndex Value="11"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1318"/>
+        <CursorPos X="1" Y="1334"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\lazarus\lcl\include\sharedimage.inc"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="11"/>
+        <CursorPos X="1" Y="21"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1082"/>
+        <CursorPos X="1" Y="1099"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="synapse\source\lib\synautil.pas"/>
+        <UnitName Value="synautil"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1801"/>
+        <CursorPos X="42" Y="1818"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit30>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="rpc.pas"/>
+        <Caret Line="276" Column="1" TopLine="266"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="5485" Column="59" TopLine="5476"/>
+      </Position2>
+      <Position3>
+        <Filename Value="main.pas"/>
+        <Caret Line="5487" Column="7" TopLine="5478"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main.pas"/>
+        <Caret Line="5486" Column="41" TopLine="5478"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main.pas"/>
+        <Caret Line="5489" Column="13" TopLine="5475"/>
+      </Position5>
+      <Position6>
+        <Filename Value="json\fpjson2.pp"/>
+        <Caret Line="1251" Column="1" TopLine="1241"/>
+      </Position6>
+      <Position7>
+        <Filename Value="main.pas"/>
+        <Caret Line="3697" Column="1" TopLine="3688"/>
+      </Position7>
+      <Position8>
+        <Filename Value="main.pas"/>
+        <Caret Line="3170" Column="1" TopLine="3160"/>
+      </Position8>
+      <Position9>
+        <Filename Value="main.pas"/>
+        <Caret Line="3291" Column="1" TopLine="3276"/>
+      </Position9>
+      <Position10>
+        <Filename Value="json\fpjson2.pp"/>
+        <Caret Line="1261" Column="1" TopLine="1251"/>
+      </Position10>
+      <Position11>
+        <Filename Value="json\fpjson2.pp"/>
+        <Caret Line="1251" Column="1" TopLine="1241"/>
+      </Position11>
+      <Position12>
+        <Filename Value="main.pas"/>
+        <Caret Line="3170" Column="1" TopLine="3160"/>
+      </Position12>
+      <Position13>
+        <Filename Value="json\fpjson2.pp"/>
+        <Caret Line="1261" Column="1" TopLine="1251"/>
+      </Position13>
+      <Position14>
+        <Filename Value="main.pas"/>
+        <Caret Line="3291" Column="43" TopLine="3282"/>
+      </Position14>
+      <Position15>
+        <Filename Value="main.pas"/>
+        <Caret Line="5486" Column="21" TopLine="5471"/>
+      </Position15>
+      <Position16>
+        <Filename Value="main.pas"/>
+        <Caret Line="5619" Column="1" TopLine="5602"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="5865" Column="14" TopLine="5849"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="3295" Column="34" TopLine="3277"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="3293" Column="63" TopLine="3285"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main.pas"/>
+        <Caret Line="3295" Column="34" TopLine="3286"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main.pas"/>
+        <Caret Line="3303" Column="78" TopLine="3286"/>
+      </Position22>
+      <Position23>
+        <Filename Value="main.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position23>
+      <Position24>
+        <Filename Value="main.pas"/>
+        <Caret Line="2" Column="36" TopLine="1"/>
+      </Position24>
+      <Position25>
+        <Filename Value="main.pas"/>
+        <Caret Line="5" Column="15" TopLine="1"/>
+      </Position25>
+      <Position26>
+        <Filename Value="main.pas"/>
+        <Caret Line="10" Column="15" TopLine="1"/>
+      </Position26>
+      <Position27>
+        <Filename Value="main.pas"/>
+        <Caret Line="16" Column="26" TopLine="1"/>
+      </Position27>
+      <Position28>
+        <Filename Value="main.pas"/>
+        <Caret Line="32" Column="26" TopLine="2"/>
+      </Position28>
+      <Position29>
+        <Filename Value="rpc.pas"/>
+        <Caret Line="276" Column="1" TopLine="266"/>
+      </Position29>
+      <Position30>
+        <Filename Value="rpc.pas"/>
+        <Caret Line="326" Column="53" TopLine="305"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

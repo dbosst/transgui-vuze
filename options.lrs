@@ -1,0 +1,89 @@
+LazarusResources.Add('TOptionsForm','FORMDATA',[
+  'TPF0'#241#12'TOptionsForm'#11'OptionsForm'#4'Left'#3'9'#1#6'Height'#3'K'#1#3
+  +'Top'#3#230#0#5'Width'#3'4'#2#8'AutoSize'#9#11'BorderIcons'#11#12'biSystemMe'
+  +'nu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#19'Application options'#12
+  +'ClientHeight'#3'K'#1#11'ClientWidth'#3'4'#2#8'OnCreate'#7#10'FormCreate'#9
+  +'OnDestroy'#7#11'FormDestroy'#6'OnShow'#7#8'FormShow'#8'Position'#7#16'poMai'
+  +'nFormCenter'#0#242#2#0#12'TPageControl'#4'Page'#4'Left'#2#8#6'Height'#3#25#1
+  +#3'Top'#2#8#5'Width'#3'$'#2#10'ActivePage'#7#10'tabGeneral'#5'Align'#7#8'alC'
+  +'lient'#20'BorderSpacing.Around'#2#8#8'TabIndex'#2#0#8'TabOrder'#2#0#0#9'TTa'
+  +'bSheet'#10'tabGeneral'#7'Caption'#6#7'General'#12'ClientHeight'#3#255#0#11
+  +'ClientWidth'#3#28#2#0#9'TGroupBox'#12'gbNewTorrent'#4'Left'#2#8#6'Height'#2
+  +'_'#3'Top'#2'v'#5'Width'#3#11#2#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0
+  +#7'Caption'#6#11'Add torrent'#12'ClientHeight'#2'M'#11'ClientWidth'#3#7#2#8
+  +'TabOrder'#2#1#0#9'TCheckBox'#22'cbShowAddTorrentWindow'#4'Left'#2#10#6'Heig'
+  +'ht'#2#17#3'Top'#2#4#5'Width'#3'!'#1#7'Caption'#6'5Prompt for download optio'
+  +'ns when adding a new torrent'#8'TabOrder'#2#0#0#0#9'TCheckBox'#19'cbDeleteT'
+  +'orrentFile'#4'Left'#2#10#6'Height'#2#17#3'Top'#2#28#5'Width'#3#245#0#7'Capt'
+  +'ion'#6'2Delete a .torrent file after a successful addition'#8'TabOrder'#2#1
+  +#0#0#9'TCheckBox'#20'cbLinksFromClipboard'#4'Left'#2#10#6'Height'#2#17#3'Top'
+  +#2'4'#5'Width'#3#253#0#7'Caption'#6'2Automatically add torrent links from th'
+  +'e clipboard'#8'TabOrder'#2#2#0#0#0#9'TGroupBox'#6'gbData'#4'Left'#2#8#6'Hei'
+  +'ght'#2'j'#3'Top'#2#6#5'Width'#3#11#2#7'Anchors'#11#5'akTop'#6'akLeft'#7'akR'
+  +'ight'#0#7'Caption'#6#12'Data display'#12'ClientHeight'#2'X'#11'ClientWidth'
+  +#3#7#2#8'TabOrder'#2#0#0#6'TLabel'#9'txSeconds'#4'Left'#3#183#1#6'Height'#2
+  +#13#3'Top'#2#6#5'Width'#2''''#7'Anchors'#11#5'akTop'#7'akRight'#0#7'Caption'
+  +#6#7'seconds'#11'ParentColor'#8#0#0#6'TLabel'#17'txRefreshInterval'#4'Left'#2
+  +#10#6'Height'#2#13#3'Top'#2#5#5'Width'#2'h'#7'Caption'#6#22'Data refresh int'
+  +'erval:'#11'ParentColor'#8#0#0#6'TLabel'#20'txRefreshIntervalMin'#4'Left'#2
+  +#10#6'Height'#2#13#3'Top'#2'!'#5'Width'#3#181#0#7'Caption'#6'%Data refresh i'
+  +'nterval when minimized:'#11'ParentColor'#8#0#0#6'TLabel'#10'txSeconds2'#4'L'
+  +'eft'#3#183#1#6'Height'#2#13#3'Top'#2'"'#5'Width'#2''''#7'Anchors'#11#5'akTo'
+  +'p'#7'akRight'#0#7'Caption'#6#7'seconds'#11'ParentColor'#8#0#0#9'TSpinEdit'
+  +#17'edRefreshInterval'#4'Left'#3'f'#1#6'Height'#2#21#3'Top'#2#2#5'Width'#2'F'
+  +#7'Anchors'#11#5'akTop'#7'akRight'#0#8'MaxValue'#3#231#3#8'MinValue'#2#1#8'T'
+  +'abOrder'#2#0#5'Value'#2#1#0#0#9'TSpinEdit'#20'edRefreshIntervalMin'#4'Left'
+  +#3'f'#1#6'Height'#2#21#3'Top'#2#30#5'Width'#2'F'#7'Anchors'#11#5'akTop'#7'ak'
+  +'Right'#0#8'MaxValue'#3#231#3#8'MinValue'#2#1#8'TabOrder'#2#1#5'Value'#2#1#0
+  +#0#9'TCheckBox'#9'cbCalcAvg'#4'Left'#2#10#6'Height'#2#17#3'Top'#2'<'#5'Width'
+  +#3#18#1#7'Caption'#6'5Average out transfer speeds to eliminate fluctuations'
+  +#8'TabOrder'#2#2#0#0#0#0#9'TTabSheet'#11'tabAdvanced'#7'Caption'#6#8'Advance'
+  +'d'#12'ClientHeight'#3#255#0#11'ClientWidth'#3#28#2#0#6'TLabel'#10'txLanguag'
+  +'e'#4'Left'#2#8#6'Height'#2#14#3'Top'#3#148#0#5'Width'#2'4'#7'Caption'#6#9'L'
+  +'anguage:'#11'ParentColor'#8#0#0#9'TGroupBox'#6'gbTray'#4'Left'#2#8#6'Height'
+  +#2'I'#3'Top'#2#6#5'Width'#3#11#2#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'
+  +#0#7'Caption'#6#9'Tray icon'#28'ChildSizing.LeftRightSpacing'#2#10#28'ChildS'
+  +'izing.TopBottomSpacing'#2#4#27'ChildSizing.VerticalSpacing'#2#6#29'ChildSiz'
+  +'ing.EnlargeHorizontal'#7#24'crsHomogenousChildResize'#18'ChildSizing.Layout'
+  +#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#2#12
+  +'ClientHeight'#2'7'#11'ClientWidth'#3#7#2#8'TabOrder'#2#0#0#9'TCheckBox'#14
+  +'cbTrayMinimize'#4'Left'#2#10#6'Height'#2#17#3'Top'#2#4#5'Width'#3#234#0#7'C'
+  +'aption'#6#16'Minimize to tray'#8'TabOrder'#2#0#0#0#9'TCheckBox'#11'cbTrayCl'
+  +'ose'#4'Left'#3#244#0#6'Height'#2#17#3'Top'#2#4#5'Width'#3#9#1#7'Caption'#6
+  +#13'Close to tray'#8'TabOrder'#2#1#0#0#9'TCheckBox'#16'cbTrayIconAlways'#4'L'
+  +'eft'#2#10#6'Height'#2#17#3'Top'#2#27#5'Width'#3#234#0#7'Caption'#6#24'Tray '
+  +'icon always visible'#8'TabOrder'#2#2#0#0#9'TCheckBox'#12'cbTrayNotify'#4'Le'
+  +'ft'#3#244#0#6'Height'#2#17#3'Top'#2#27#5'Width'#3#9#1#7'Caption'#6#31'Show '
+  +'notifications in tray icon'#8'TabOrder'#2#3#0#0#0#9'TComboBox'#10'cbLanguag'
+  +'e'#4'Left'#3'0'#1#6'Height'#2#21#3'Top'#3#146#0#5'Width'#3#227#0#7'Anchors'
+  +#11#5'akTop'#6'akLeft'#7'akRight'#0#13'DropDownCount'#2#20#10'ItemHeight'#2
+  +#13#7'OnEnter'#7#15'cbLanguageEnter'#11'OnMouseDown'#7#19'cbLanguageMouseDow'
+  +'n'#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#4#0#0#6'TLabel'#11'txIntfSca'
+  +'le'#4'Left'#2#8#6'Height'#2#14#3'Top'#2'y'#5'Width'#2'0'#7'Caption'#6#10'Fo'
+  +'nt size:'#11'ParentColor'#8#0#0#9'TSpinEdit'#11'edIntfScale'#4'Left'#3'0'#1
+  +#6'Height'#2#21#3'Top'#2'v'#5'Width'#2'F'#9'Increment'#2#5#8'MaxValue'#3#200
+  +#0#8'MinValue'#2'K'#8'TabOrder'#2#3#5'Value'#2'd'#0#0#6'TLabel'#6'txPerc'#4
+  ,'Left'#3#128#1#6'Height'#2#14#3'Top'#2'y'#5'Width'#2#12#7'Caption'#6#1'%'#11
+  +'ParentColor'#8#0#0#9'TCheckBox'#17'cbCheckNewVersion'#4'Left'#2#8#6'Height'
+  +#2#17#3'Top'#2'\'#5'Width'#3#160#0#7'Caption'#6#28'Check for new version eve'
+  +'ry:'#7'OnClick'#7#22'cbCheckNewVersionClick'#8'TabOrder'#2#1#0#0#9'TSpinEdi'
+  +'t'#18'edCheckVersionDays'#4'Left'#3'0'#1#6'Height'#2#21#3'Top'#2'Z'#5'Width'
+  +#2'F'#8'MaxValue'#3#231#3#8'MinValue'#2#1#8'TabOrder'#2#2#5'Value'#2#5#0#0#6
+  +'TLabel'#6'txDays'#4'Left'#3#128#1#6'Height'#2#14#3'Top'#2']'#5'Width'#2#24#7
+  +'Caption'#6#4'days'#11'ParentColor'#8#0#0#9'TGroupBox'#8'gbSysInt'#4'Left'#2
+  +#8#6'Height'#2'G'#3'Top'#3#172#0#5'Width'#3#11#2#7'Anchors'#11#5'akTop'#6'ak'
+  +'Left'#7'akRight'#0#7'Caption'#6#18'System integration'#12'ClientHeight'#2'5'
+  +#11'ClientWidth'#3#7#2#8'TabOrder'#2#5#7'Visible'#8#0#9'TCheckBox'#8'cbRegEx'
+  +'t'#4'Left'#2#10#6'Height'#2#17#3'Top'#2#4#5'Width'#3#148#0#7'Caption'#6#27
+  +'Handle .torrent files by %s'#8'TabOrder'#2#0#0#0#9'TCheckBox'#11'cbRegMagne'
+  +'t'#4'Left'#2#10#6'Height'#2#17#3'Top'#2#28#5'Width'#3#147#0#7'Caption'#6#25
+  +'Handle magnet links by %s'#8'TabOrder'#2#1#0#0#0#0#0#242#2#1#12'TButtonPane'
+  +'l'#7'Buttons'#4'Left'#2#8#6'Height'#2#26#3'Top'#3')'#1#5'Width'#3'$'#2#18'B'
+  +'orderSpacing.Left'#2#8#19'BorderSpacing.Right'#2#8#20'BorderSpacing.Bottom'
+  +#2#8#20'BorderSpacing.Around'#2#0#13'OKButton.Name'#6#8'OKButton'#23'OKButto'
+  +'n.DefaultCaption'#9#15'HelpButton.Name'#6#10'HelpButton'#25'HelpButton.Defa'
+  +'ultCaption'#9#16'CloseButton.Name'#6#11'CloseButton'#26'CloseButton.Default'
+  +'Caption'#9#17'CancelButton.Name'#6#12'CancelButton'#27'CancelButton.Default'
+  +'Caption'#9#8'TabOrder'#2#1#7'Spacing'#2#8#11'ShowButtons'#11#4'pbOK'#8'pbCa'
+  +'ncel'#0#9'ShowBevel'#8#0#0#0
+]);

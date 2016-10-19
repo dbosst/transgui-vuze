@@ -1,0 +1,112 @@
+LazarusResources.Add('TConnOptionsForm','FORMDATA',[
+  'TPF0'#241#16'TConnOptionsForm'#15'ConnOptionsForm'#4'Left'#3#145#1#6'Height'
+  +#3'{'#1#3'Top'#3#186#0#5'Width'#3#17#2#18'HorzScrollBar.Page'#3']'#1#18'Vert'
+  +'ScrollBar.Page'#3#238#0#8'AutoSize'#9#11'BorderIcons'#11#12'biSystemMenu'#0
+  +#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6'"Manage connections to Transmiss'
+  +'ion'#12'ClientHeight'#3'{'#1#11'ClientWidth'#3#17#2#21'Constraints.MinHeigh'
+  +'t'#3#24#1#20'Constraints.MinWidth'#3#215#1#8'OnCreate'#7#10'FormCreate'#6'O'
+  +'nShow'#7#8'FormShow'#8'Position'#7#16'poMainFormCenter'#0#242#2#0#12'TPageC'
+  +'ontrol'#4'Page'#4'Left'#2#8#6'Height'#3#12#1#3'Top'#2'E'#5'Width'#3#1#2#10
+  +'ActivePage'#7#13'tabConnection'#5'Align'#7#8'alClient'#18'BorderSpacing.Lef'
+  +'t'#2#8#19'BorderSpacing.Right'#2#8#8'TabIndex'#2#0#8'TabOrder'#2#1#0#9'TTab'
+  +'Sheet'#13'tabConnection'#7'Caption'#6#12'Transmission'#12'ClientHeight'#3
+  +#242#0#11'ClientWidth'#3#249#1#0#6'TLabel'#10'txPassword'#4'Left'#2#24#6'Hei'
+  +'ght'#2#13#3'Top'#3#157#0#5'Width'#2'2'#7'Caption'#6#9'Password:'#11'ParentC'
+  +'olor'#8#0#0#6'TLabel'#10'txUserName'#4'Left'#2#24#6'Height'#2#13#3'Top'#3
+  +#128#0#5'Width'#2'7'#7'Caption'#6#10'User name:'#11'ParentColor'#8#0#0#6'TLa'
+  +'bel'#6'txPort'#4'Left'#2#8#6'Height'#2#13#3'Top'#2'L'#5'Width'#2#24#7'Capti'
+  +'on'#6#5'Port:'#11'ParentColor'#8#0#0#6'TLabel'#6'txHost'#4'Left'#2#8#6'Heig'
+  +'ht'#2#13#3'Top'#2'0'#5'Width'#2'A'#7'Caption'#6#12'Remote host:'#11'ParentC'
+  +'olor'#8#0#0#5'TEdit'#10'edPassword'#4'Left'#3#180#0#6'Height'#2#21#3'Top'#3
+  +#153#0#5'Width'#3'<'#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'EchoM'
+  +'ode'#7#10'emPassword'#12'PasswordChar'#6#1'*'#8'TabOrder'#2#5#0#0#5'TEdit'
+  +#10'edUserName'#4'Left'#3#180#0#6'Height'#2#21#3'Top'#2'}'#5'Width'#3'<'#1#7
+  +'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'TabOrder'#2#4#0#0#9'TSpinEdit'
+  +#6'edPort'#4'Left'#3#180#0#6'Height'#2#21#3'Top'#2'I'#5'Width'#2'F'#8'MaxVal'
+  +'ue'#4#255#255#0#0#8'MinValue'#2#1#8'TabOrder'#2#1#5'Value'#4#255#255#0#0#0#0
+  +#9'TCheckBox'#5'cbSSL'#4'Left'#3#4#1#6'Height'#2#17#3'Top'#2'K'#5'Width'#2'8'
+  +#7'Caption'#6#7'Use SSL'#8'TabOrder'#2#2#0#0#5'TEdit'#6'edHost'#4'Left'#3#180
+  +#0#6'Height'#2#21#3'Top'#2'-'#5'Width'#3'<'#1#7'Anchors'#11#5'akTop'#6'akLef'
+  +'t'#7'akRight'#0#8'OnChange'#7#12'edHostChange'#8'TabOrder'#2#0#0#0#6'TLabel'
+  +#10'txConnHelp'#4'Left'#2#8#6'Height'#2#31#3'Top'#2#9#5'Width'#3#232#1#7'Anc'
+  +'hors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'AutoSize'#8#7'Caption'#6'ZPlease'
+  +' specify how %s will connect to a remote host running Transmission daemon ('
+  +'service).'#11'ParentColor'#8#8'WordWrap'#9#0#0#9'TCheckBox'#6'cbAuth'#4'Lef'
+  +'t'#2#8#6'Height'#2#17#3'Top'#2'e'#5'Width'#3#131#0#7'Caption'#6#23'Authenti'
+  +'cation required'#7'OnClick'#7#11'cbAuthClick'#8'TabOrder'#2#3#0#0#5'TEdit'#9
+  +'edRpcPath'#4'Left'#3#180#0#6'Height'#2#21#3'Top'#3#209#0#5'Width'#3'<'#1#8
+  +'TabOrder'#2#7#0#0#6'TLabel'#9'txRpcPath'#4'Left'#2#8#6'Height'#2#13#3'Top'#3
+  +#212#0#5'Width'#2'1'#7'Caption'#6#9'RPC path:'#11'ParentColor'#8#0#0#9'TChec'
+  +'kBox'#14'cbShowAdvanced'#4'Left'#2#8#6'Height'#2#17#3'Top'#3#225#0#5'Width'
+  +#3#132#0#7'Caption'#6#21'Show advanced options'#7'OnClick'#7#19'cbShowAdvanc'
+  +'edClick'#8'TabOrder'#2#8#7'Visible'#8#0#0#9'TCheckBox'#13'cbAskPassword'#4
+  +'Left'#3#180#0#6'Height'#2#17#3'Top'#3#181#0#5'Width'#2'e'#7'Caption'#6#16'A'
+  +'sk for password'#7'OnClick'#7#18'cbAskPasswordClick'#8'TabOrder'#2#6#0#0#0#9
+  +'TTabSheet'#8'tabProxy'#7'Caption'#6#5'Proxy'#12'ClientHeight'#3#227#0#11'Cl'
+  +'ientWidth'#3#249#1#0#6'TLabel'#7'txProxy'#4'Left'#2#8#6'Height'#2#14#3'Top'
+  +#2'%'#5'Width'#2'C'#7'Caption'#6#13'Proxy server:'#11'ParentColor'#8#0#0#6'T'
+  +'Label'#11'txProxyPort'#4'Left'#2#8#6'Height'#2#14#3'Top'#2'A'#5'Width'#2'8'
+  +#7'Caption'#6#11'Proxy port:'#11'ParentColor'#8#0#0#6'TLabel'#15'txProxyUser'
+  +'Name'#4'Left'#2#24#6'Height'#2#14#3'Top'#2't'#5'Width'#2'V'#7'Caption'#6#16
+  +'Proxy user name:'#11'ParentColor'#8#0#0#6'TLabel'#15'txProxyPassword'#4'Lef'
+  +'t'#2#24#6'Height'#2#14#3'Top'#3#144#0#5'Width'#2'R'#7'Caption'#6#15'Proxy p'
+  +'assword:'#11'ParentColor'#8#0#0#9'TCheckBox'#10'cbUseProxy'#4'Left'#2#8#6'H'
+  +'eight'#2#17#3'Top'#2#10#5'Width'#3#228#0#7'Caption'#6'*Connect to Transmiss'
+  +'ion using proxy server'#7'OnClick'#7#15'cbUseProxyClick'#8'TabOrder'#2#0#0#0
+  +#9'TCheckBox'#11'cbUseSocks5'#4'Left'#3#4#1#6'Height'#2#17#3'Top'#2'@'#5'Wid'
+  +'th'#2'<'#7'Caption'#6#7'SOCKS 5'#7'OnClick'#7#15'cbUseProxyClick'#8'TabOrde'
+  +'r'#2#3#0#0#5'TEdit'#7'edProxy'#4'Left'#3#180#0#6'Height'#2#21#3'Top'#2'"'#5
+  +'Width'#3'<'#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'TabOrder'#2#1
+  +#0#0#9'TSpinEdit'#11'edProxyPort'#4'Left'#3#180#0#6'Height'#2#21#3'Top'#2'>'
+  +#5'Width'#2'F'#8'MaxValue'#4#255#255#0#0#8'MinValue'#2#1#8'TabOrder'#2#2#5'V'
+  +'alue'#4#255#255#0#0#0#0#5'TEdit'#15'edProxyUserName'#4'Left'#3#180#0#6'Heig'
+  +'ht'#2#21#3'Top'#2'q'#5'Width'#3'<'#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akR'
+  +'ight'#0#8'TabOrder'#2#4#0#0#5'TEdit'#15'edProxyPassword'#4'Left'#3#180#0#6
+  +'Height'#2#21#3'Top'#3#141#0#5'Width'#3'<'#1#7'Anchors'#11#5'akTop'#6'akLeft'
+  ,#7'akRight'#0#8'EchoMode'#7#10'emPassword'#12'PasswordChar'#6#1'*'#8'TabOrde'
+  +'r'#2#5#0#0#9'TCheckBox'#11'cbProxyAuth'#4'Left'#2#8#6'Height'#2#17#3'Top'#2
+  +'Y'#5'Width'#3#131#0#7'Caption'#6#23'Authentication required'#7'OnClick'#7#16
+  +'cbProxyAuthClick'#8'TabOrder'#2#6#0#0#0#9'TTabSheet'#8'tabPaths'#7'Caption'
+  +#6#5'Paths'#12'ClientHeight'#3#227#0#11'ClientWidth'#3#249#1#6'OnShow'#7#12
+  +'tabPathsShow'#0#6'TLabel'#7'txPaths'#4'Left'#2#8#6'Height'#2'B'#3'Top'#2#8#5
+  +'Width'#3#232#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#7'Caption'#6'^'
+  +'Remote to local path mappings.'#13#10#13#10'Examples:'#13#10'/share=\\pch\s'
+  +'hare'#13#10'/var/downloads/music=Z:\music'#11'ParentColor'#8#8'WordWrap'#9#0
+  +#0#5'TMemo'#7'edPaths'#4'Left'#2#8#6'Height'#3#133#0#3'Top'#2'R'#5'Width'#3
+  +#232#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBottom'#0#10'ScrollBa'
+  +'rs'#7#14'ssAutoVertical'#8'TabOrder'#2#0#8'WordWrap'#8#0#0#0#9'TTabSheet'#7
+  +'tabMisc'#7'Caption'#6#4'Misc'#12'ClientHeight'#3#227#0#11'ClientWidth'#3#249
+  +#1#0#9'TGroupBox'#7'gbSpeed'#4'Left'#2#8#6'Height'#2'}'#3'Top'#2#6#5'Width'#3
+  +#232#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#7'Caption'#6#22'Speed l'
+  +'imit menu items'#12'ClientHeight'#2'k'#11'ClientWidth'#3#228#1#8'TabOrder'#2
+  +#0#0#6'TLabel'#12'txDownSpeeds'#4'Left'#2#8#6'Height'#2#14#3'Top'#2#4#5'Widt'
+  +'h'#2'y'#7'Caption'#6#23'Download speeds (KB/s):'#11'ParentColor'#8#0#0#6'TL'
+  +'abel'#10'txUpSpeeds'#4'Left'#2#8#6'Height'#2#14#3'Top'#2'4'#5'Width'#2'k'#7
+  +'Caption'#6#21'Upload speeds (KB/s):'#11'ParentColor'#8#0#0#5'TEdit'#12'edDo'
+  +'wnSpeeds'#4'Left'#2#8#6'Height'#2#21#3'Top'#2#24#5'Width'#3#212#1#7'Anchors'
+  +#11#5'akTop'#6'akLeft'#7'akRight'#0#8'TabOrder'#2#0#0#0#5'TEdit'#10'edUpSpee'
+  +'ds'#4'Left'#2#8#6'Height'#2#21#3'Top'#2'H'#5'Width'#3#212#1#7'Anchors'#11#5
+  +'akTop'#6'akLeft'#7'akRight'#0#8'TabOrder'#2#1#0#0#0#0#0#242#2#1#12'TButtonP'
+  +'anel'#7'Buttons'#4'Left'#2#8#6'Height'#2#26#3'Top'#3'Y'#1#5'Width'#3#1#2#18
+  +'BorderSpacing.Left'#2#8#17'BorderSpacing.Top'#2#8#19'BorderSpacing.Right'#2
+  +#8#20'BorderSpacing.Bottom'#2#8#20'BorderSpacing.Around'#2#0#13'OKButton.Nam'
+  +'e'#6#8'OKButton'#23'OKButton.DefaultCaption'#9#15'HelpButton.Name'#6#10'Hel'
+  +'pButton'#25'HelpButton.DefaultCaption'#9#16'CloseButton.Name'#6#11'CloseBut'
+  +'ton'#26'CloseButton.DefaultCaption'#9#17'CancelButton.Name'#6#12'CancelButt'
+  +'on'#27'CancelButton.DefaultCaption'#9#8'TabOrder'#2#2#7'Spacing'#2#8#11'Sho'
+  +'wButtons'#11#4'pbOK'#8'pbCancel'#0#9'ShowBevel'#8#0#0#242#2#2#6'TPanel'#6'p'
+  +'anTop'#4'Left'#2#8#6'Height'#2'5'#3'Top'#2#8#5'Width'#3#1#2#5'Align'#7#5'al'
+  +'Top'#20'BorderSpacing.Around'#2#8#10'BevelOuter'#7#6'bvNone'#12'ClientHeigh'
+  +'t'#2'5'#11'ClientWidth'#3#1#2#8'TabOrder'#2#0#0#6'TLabel'#9'txConName'#4'Le'
+  +'ft'#2#0#6'Height'#2#13#3'Top'#2#4#5'Width'#2'W'#7'Caption'#6#16'Connection '
+  +'name:'#11'ParentColor'#8#0#0#9'TComboBox'#12'cbConnection'#4'Left'#3#170#0#6
+  +'Height'#2#21#3'Top'#2#1#5'Width'#3'V'#1#7'Anchors'#11#5'akTop'#6'akLeft'#7
+  +'akRight'#0#10'ItemHeight'#2#13#8'OnSelect'#7#18'cbConnectionSelect'#5'Style'
+  +#7#14'csDropDownList'#8'TabOrder'#2#0#0#0#7'TButton'#5'btNew'#4'Left'#3#170#0
+  +#6'Height'#2#23#3'Top'#2#28#5'Width'#2'o'#7'Caption'#6#3'New'#7'OnClick'#7#10
+  +'btNewClick'#8'TabOrder'#2#1#0#0#7'TButton'#5'btDel'#4'Left'#3#146#1#6'Heigh'
+  +'t'#2#23#3'Top'#2#28#5'Width'#2'o'#7'Caption'#6#6'Delete'#7'OnClick'#7#10'bt'
+  +'DelClick'#8'TabOrder'#2#3#0#0#7'TButton'#8'btRename'#4'Left'#3#30#1#6'Heigh'
+  +'t'#2#23#3'Top'#2#28#5'Width'#2'o'#7'Caption'#6#6'Rename'#7'OnClick'#7#13'bt'
+  +'RenameClick'#8'TabOrder'#2#2#0#0#0#0
+]);

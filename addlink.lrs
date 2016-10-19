@@ -1,0 +1,21 @@
+LazarusResources.Add('TAddLinkForm','FORMDATA',[
+  'TPF0'#241#12'TAddLinkForm'#11'AddLinkForm'#4'Left'#3'b'#1#6'Height'#2']'#3'T'
+  +'op'#3#193#0#5'Width'#3'>'#2#8'AutoSize'#9#11'BorderIcons'#11#12'biSystemMen'
+  +'u'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#16'Add torrent link'#12'Cli'
+  +'entHeight'#2']'#11'ClientWidth'#3'>'#2#8'OnCreate'#7#10'FormCreate'#8'Posit'
+  +'ion'#7#16'poMainFormCenter'#0#242#2#0#12'TButtonPanel'#7'Buttons'#4'Left'#2
+  +#8#6'Height'#2#26#3'Top'#2';'#5'Width'#3'.'#2#18'BorderSpacing.Left'#2#8#19
+  +'BorderSpacing.Right'#2#8#20'BorderSpacing.Bottom'#2#8#20'BorderSpacing.Arou'
+  +'nd'#2#0#13'OKButton.Name'#6#8'OKButton'#23'OKButton.DefaultCaption'#9#15'He'
+  +'lpButton.Name'#6#10'HelpButton'#25'HelpButton.DefaultCaption'#9#16'CloseBut'
+  +'ton.Name'#6#11'CloseButton'#26'CloseButton.DefaultCaption'#9#17'CancelButto'
+  +'n.Name'#6#12'CancelButton'#27'CancelButton.DefaultCaption'#9#8'TabOrder'#2#1
+  +#7'Spacing'#2#8#11'ShowButtons'#11#4'pbOK'#8'pbCancel'#0#9'ShowBevel'#8#0#0
+  +#242#2#1#6'TPanel'#6'Panel1'#4'Left'#2#8#6'Height'#2'+'#3'Top'#2#8#5'Width'#3
+  +'.'#2#5'Align'#7#8'alClient'#20'BorderSpacing.Around'#2#8#10'BevelOuter'#7#6
+  +'bvNone'#12'ClientHeight'#2'+'#11'ClientWidth'#3'.'#2#8'TabOrder'#2#0#0#6'TL'
+  +'abel'#6'txLink'#4'Left'#2#0#6'Height'#2#14#3'Top'#2#0#5'Width'#3#183#0#7'Ca'
+  +'ption'#6'(URL of a .torrent file or a magnet link:'#11'ParentColor'#8#0#0#5
+  +'TEdit'#6'edLink'#4'Left'#2#0#6'Height'#2#21#3'Top'#2#20#5'Width'#3'.'#2#7'A'
+  +'nchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'TabOrder'#2#0#0#0#0#0
+]);
