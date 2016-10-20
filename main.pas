@@ -4817,6 +4817,13 @@ begin
 
   // Check fields' existence
   SetLength(FieldExists, FTorrents.ColCnt);
+  FieldExists[idxName]:=false;
+  FieldExists[idxRatio]:=false;
+  FieldExists[idxTracker]:=false;
+  FieldExists[idxPath]:=false;
+  FieldExists[idxPriority]:=false;
+  FieldExists[idxQueuePos]:=false;
+  FieldExists[idxSeedingTime]:=false;
   if list.Count > 0 then begin
     t:=list[0] as TJSONObject;
     FieldExists[idxName]:=t.IndexOfName('name') >= 0;
@@ -5060,9 +5067,13 @@ begin
         Paths.Objects[j]:=TObject(PtrInt(Paths.Objects[j]) + 1);
     end;
 
-    if FieldExists[idxPriority] then
-      FTorrents[idxPriority, row]:=t.Integers['bandwidthPriority'];
-
+    // can fail with vuze
+    try
+      if FieldExists[idxPriority] then
+        FTorrents[idxPriority, row]:=t.Integers['bandwidthPriority'];
+    except
+      FTorrents[idxPriority, row]:=-1;
+    end;
     if FieldExists[idxQueuePos] then begin
       j:=t.Integers['queuePosition'];
       if FTorrents[idxStatus, row] = TR_STATUS_FINISHED then
