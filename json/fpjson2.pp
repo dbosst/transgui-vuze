@@ -554,7 +554,11 @@ end;
 
 function TJSONstring.GetAsInteger: Integer;
 begin
-  Result:=StrToInt(FValue);
+  // vuze can return empty strings when adding new torrents
+  if Fvalue = '' then
+    Result:=-1
+  else
+    Result:=StrToInt(FValue);
 end;
 
 procedure TJSONstring.SetAsBoolean(const AValue: Boolean);

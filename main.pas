@@ -2256,7 +2256,11 @@ begin
             edSaveAs.Enabled:=False;
             edSaveAs.ParentColor:=True;
           end;
-          edPeerLimit.Value:=t.Objects[0].Integers['maxConnectedPeers'];
+          // vuze fix
+          if RpcObj.RPCVersionAzure = 0 then
+            edPeerLimit.Value:=t.Objects[0].Integers['maxConnectedPeers']
+          else
+            edPeerLimit.Value:=0;
           FilesTree.FillTree(id, t.Objects[0].Arrays['files'], nil, nil);
           Width:=Ini.ReadInteger('AddTorrent', 'Width', Width);
           if (RpcObj.RPCVersion >= 7) and (lvFiles.Items.Count = 0) and (t.Objects[0].Floats['metadataPercentComplete'] <> 1.0) then begin
@@ -4945,8 +4949,17 @@ begin
 
     GetTorrentValue(idxSize, 'totalSize', vtExtended);
     GetTorrentValue(idxSizeToDowload, 'sizeWhenDone', vtExtended);
-    GetTorrentValue(idxSeeds, 'peersSendingToUs', vtInteger);
-    GetTorrentValue(idxPeers, 'peersGettingFromUs', vtInteger);
+    // vuze will fail when adding magnet torrents here
+    try
+      GetTorrentValue(idxSeeds, 'peersSendingToUs', vtInteger);
+    except
+      FTorrents[idxSeeds, row]:= -1;
+    end;
+    try
+      GetTorrentValue(idxPeers, 'peersGettingFromUs', vtInteger)
+    except
+      FTorrents[idxPeers, row]:= -1;
+    end;
     GetTorrentValue(idxETA, 'eta', vtInteger);
     v:=FTorrents[idxETA, row];
     if not VarIsNull(v) then
@@ -5469,7 +5482,7 @@ end;
 
 procedure TMainForm.FillGeneralInfo(t: TJSONObject);
 var
-  i, j, idx: integer;
+  i, j, idx, tidx: integer;
   s: string;
   f: double;
 begin
@@ -5555,7 +5568,9 @@ begin
     txUpLimit.Caption:=s;
   end else begin
     // RPC version 5
-    if t.Booleans['downloadLimited'] then
+    // vuze can be empty for magnet downloads
+    tidx := t.IndexOfName('downloadLimited');
+    if (tidx >= 0) AND t.Booleans['downloadLimited'] then
     begin
       i:=t.Integers['downloadLimit'];
       if i < 0 then
@@ -5565,7 +5580,8 @@ begin
     end else s:='-';
     txDownLimit.Caption:=s;
 
-    if t.Booleans['uploadLimited'] then
+    tidx := t.IndexOfName('uploadLimited');
+    if (tidx >= 0) AND t.Booleans['uploadLimited'] then
     begin
       i:=t.Integers['uploadLimit'];
       if i < 0 then
@@ -5670,7 +5686,12 @@ begin
     end;
   end;
   txAddedOn.Caption:=TorrentDateTimeToString(Trunc(t.Floats['addedDate']));
-  txCompletedOn.Caption:=TorrentDateTimeToString(Trunc(t.Floats['doneDate']));
+  // vuze fix
+  tidx := t.IndexOfName('doneDate');
+  if (tidx >= 0) then
+    txCompletedOn.Caption:=TorrentDateTimeToString(Trunc(t.Floats['doneDate']))
+  else
+    txCompletedOn.Caption:='';
   panGeneralInfo.ChildSizing.Layout:=cclLeftToRightThenTopToBottom;
   DetailsUpdated;
 end;

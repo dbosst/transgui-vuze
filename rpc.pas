@@ -257,6 +257,7 @@ end;
 procedure TRpcThread.DoFillFilesList;
 var
   t: TJSONObject;
+  tidx: integer;
   dir: widestring;
 begin
   if ResultData = nil then begin
@@ -268,7 +269,21 @@ begin
     dir:=t.Strings['downloadDir']
   else
     dir:='';
-  MainForm.FillFilesList(t.Integers['id'], t.Arrays['files'], t.Arrays['priorities'], t.Arrays['wanted'], dir);
+  // vuze fix
+  tidx := t.IndexOfName('priorities');
+  if (tidx >= 0) then begin
+    tidx := t.IndexOfName('wanted');
+    if (tidx >= 0) then
+      MainForm.FillFilesList(t.Integers['id'], t.Arrays['files'], t.Arrays['priorities'], t.Arrays['wanted'], dir)
+    else
+      MainForm.FillFilesList(t.Integers['id'], t.Arrays['files'], t.Arrays['priorities'], nil, dir);
+  end else begin
+    tidx := t.IndexOfName('wanted');
+    if (tidx >= 0) then
+      MainForm.FillFilesList(t.Integers['id'], t.Arrays['files'], nil, t.Arrays['wanted'], dir)
+    else
+      MainForm.FillFilesList(t.Integers['id'], t.Arrays['files'], nil, nil, dir);
+  end;
 end;
 
 procedure TRpcThread.DoFillInfo;
